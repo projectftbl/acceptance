@@ -1,0 +1,23 @@
+{
+  "name": "@ftbl/acceptance",
+  "version": "0.0.0",
+  "description": "Web application acceptance test helper",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "test": "node index",
+    "postinstall": "./node_modules/selenium-standalone/bin/selenium-standalone install"
+  },
+  "author": "Johnny Hall",
+  "dependencies": {
+    "chai": "^3.3.0",
+    "glob-all": "^3.0.1",
+    "lodash": "^3.10.1",
+    "mocha": "^2.3.2",
+    "mochawesome": "^1.2.1",
+    "selenium-standalone": "^4.6.0",
+    "webdriverio": "^3.2.3",
+    "yadda": "^0.15.3",
+    "yargs": "^3.29.0"
+  }
+}
